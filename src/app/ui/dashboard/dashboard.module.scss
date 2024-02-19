@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    gap: 50px;
+
+    .menu {
+        flex: 1;
+        padding: 20px;
+        background-color: var(--elemnts_bg_color);
+    }
+
+    .content {
+        flex: 4;
+        padding: 20px;
+        background-color: var(--elemnts_bg_color);
+    }
+}
+
