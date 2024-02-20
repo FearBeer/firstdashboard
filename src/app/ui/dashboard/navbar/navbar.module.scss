@@ -11,8 +11,34 @@
     }
     
     .serach {
-        padding: 10px;
-        border-radius: 15px;
-        outline: none;
+        background-color: var(--active_color);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        svg {
+            position: absolute;
+            left: 5px;
+            width: 15px;
+        }
+
+        input {
+            padding: 10px 10px 10px 25px;
+            background-color: transparent;
+            color: var(--main_color);
+            border: none;
+
+            &::placeholder {
+                color: var(--main_color);
+            }
+
+            &:focus {
+                outline: none;
+                border-radius: 5px;
+                box-shadow: 0 0 4px 2px var(--main_color);
+                transition: all .5s;
+            }
+        }
     }
 }
