@@ -1,0 +1,16 @@
+.link {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: #19132580;
+    }
+
+    &.active {
+        background-color: #191325;
+    }
+}

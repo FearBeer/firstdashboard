@@ -1,0 +1,36 @@
+.container {
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    .user {
+        display: grid;
+        grid-template-areas: 
+            "avatar userName"
+            "avatar userRole"
+        ;
+        margin-bottom: 20px;
+
+        &_image {
+            justify-self: center;
+            grid-area: avatar;
+            width: 50px;
+            path {
+                fill: var(--main_color);
+            }
+        }
+
+        &_name {
+            grid-area: userName;
+        }
+
+        &_role {
+            grid-area: userRole;
+            font-style: italic;
+        }
+    }
+
+    .category {
+        margin-bottom: 10px;
+    }
+}
