@@ -7,10 +7,12 @@
     border-radius: 5px;
 
     &:hover {
-        background-color: #19132580;
+        background-color: var(--hover_color);
+        transition: all .5s;
     }
 
     &.active {
-        background-color: #191325;
+        background-color: var(--active_color);
+        transition: all .3s;
     }
 }
