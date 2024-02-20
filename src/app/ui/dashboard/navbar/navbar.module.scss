@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--elemnts_bg_color);
+
+    .title {
+        text-transform: capitalize;
+    }
+    
+    .serach {
+        padding: 10px;
+        border-radius: 15px;
+        outline: none;
+    }
+}
