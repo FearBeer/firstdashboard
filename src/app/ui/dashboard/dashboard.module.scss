@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    gap: 50px;
+    gap: 10px;
     
     .menu {
         flex: 1;
@@ -11,6 +11,34 @@
     .content {
         flex: 4;
         padding: 20px;
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: 7fr 3fr;
+            gap: 20px;
+
+            .cards {
+                grid-column: 1/2;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .transactions {
+                grid-column: 1/2;
+            }
+
+            .chart {
+                grid-column: 1/2;
+            }
+
+            .rightbar {
+                grid-column: 2/3;
+                grid-row: 1/4;
+            }
+
+        }
     }
 }
 
