@@ -1,5 +1,6 @@
 import Card from "../ui/dashboard/card/card";
 import styles from "../ui/dashboard/dashboard.module.scss";
+import Transactions from "../ui/dashboard/transactions/transactions";
 
 function Dashboard() {
     return (
@@ -10,7 +11,7 @@ function Dashboard() {
                 <Card />
             </div>
             <div className={styles.transactions}>
-                transactions
+                <Transactions />
             </div>
             <div className={styles.chart}>
                 chart
