@@ -1,0 +1,22 @@
+.container {
+    position: sticky;
+    top: 20px;
+
+    .card {
+        padding: 20px;
+        border-radius: 10px;
+        background-color: var(--elemnts_bg_color);
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        &_notification {
+            align-self: center;
+        }
+
+        &_info {
+            font-size: 0.7rem;
+        }
+    }
+}
