@@ -1,0 +1,54 @@
+.container {
+    padding: 15px;
+    background-color: var(--elemnts_bg_color);
+    border-radius: 10px;
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+    .table {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        // justify-items: center;
+
+        .name {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            svg {
+                min-width: 20px;
+                height: 20px;
+            }
+        }
+
+        .subtitle {
+            text-transform: capitalize;
+        }
+
+        .status {
+            text-transform: capitalize;
+
+            .cancel {
+                background-color: rgb(161, 58, 58);
+                border-radius: 5px;
+                padding: 10px;
+            }
+
+            .done {
+                background-color:rgb(28, 102, 67);
+                border-radius: 5px;
+                padding: 10px;
+            }
+
+            .pending {
+                background-color:rgb(91, 91, 91);
+                border-radius: 5px;
+                padding: 10px;
+            }
+        }
+    }
+}

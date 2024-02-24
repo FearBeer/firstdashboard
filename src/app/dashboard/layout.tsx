@@ -11,7 +11,6 @@ function Layout({ children } : Readonly<{children: React.ReactNode;}>) {
             </div>
             <div className={styles.content}>
                 <Navbar />
-                &#34;Макет&#34;
                 {children}
             </div>            
         </div>
